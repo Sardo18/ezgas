@@ -17,17 +17,24 @@
 		<version>1.5.3.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-
+	
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
+	
+ 		<sonar.projectKey>Sardo18_ezgas2</sonar.projectKey>
+  		<sonar.organization>ezgasv2</sonar.organization>
+		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
+<<<<<<< HEAD
+=======
 	<properties>
  		<sonar.projectKey>Sardo18_ezgas2</sonar.projectKey>
   		<sonar.organization>ezgasv2</sonar.organization>
 		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
+>>>>>>> 0d47d6fa2897e0b0a16dbfdd89c1f6c9e5388bd5
 	<dependencies>
 	
 	 <dependency>
